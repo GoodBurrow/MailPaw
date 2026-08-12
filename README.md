@@ -2,6 +2,8 @@
 
 # MailPaw
 
+Made by [Good Burrow](https://goodburrow.github.io/).
+
 <p><strong>Email templates that stay by your side.</strong></p>
 <p>
 A free, privacy-first email template builder for newsletters, campaigns, announcements, outreach, and polished everyday emails.<br>

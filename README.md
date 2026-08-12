@@ -8,13 +8,11 @@ A free, privacy-first email template builder for newsletters, campaigns, announc
 It runs as a standalone web app, stores templates locally in your browser, and gives you copy-ready email content plus downloadable backup files.
 </p>
 <p>
-  <a href="https://barryanders.github.io/MailPaw/">Open MailPaw</a>
+  <a href="https://goodburrow.github.io/MailPaw/">Open MailPaw</a>
 </p>
 <p><sub>free to use · local-first · no account · no subscription · no ads · no tracking</sub></p>
 <p>
-  <a href="https://buymeacoffee.com/barryanders">
-    <img alt="Buy me a coffee" src="https://img.shields.io/badge/Buy%20me%20a%20coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=fff&labelColor=1f2937">
-  </a>
+  <a href="https://goodburrow.github.io/">From Good Burrow</a>
 </p>
 
 ## Free Email Template Builder

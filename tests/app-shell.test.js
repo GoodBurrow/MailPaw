@@ -13,7 +13,7 @@ test('public app shell keeps searchable local-first metadata', () => {
   assert.match(app, /<title>Free HTML Email Template Builder/);
   assert.match(app, /<meta name="description" content="[^"]*local-first[^"]*no account/i);
   assert.match(app, /<meta name="robots" content="index,follow">/);
-  assert.match(app, /<link rel="canonical" href="https:\/\/barryanders\.github\.io\/MailPaw\/app\.html">/);
+  assert.match(app, /<link rel="canonical" href="https:\/\/goodburrow\.github\.io\/MailPaw\/app\.html">/);
   assert.match(app, /"@type": "WebApplication"/);
   assert.match(app, /"No account required"/);
 });

@@ -61,7 +61,7 @@
 
     showModal('Email ready', `
       <div style="color:#475569; font-size:14px; line-height:1.5;">
-        If MailPaw helped, coffee is appreciated.
+        MailPaw is a free Good Burrow app.
       </div>
     `, () => {
       window.open(MAILPAW_SUPPORT_URL, '_blank', 'noopener');
@@ -71,7 +71,7 @@
     if (!modal) return;
     const submit = modal.querySelector('#modal-submit');
     const cancel = modal.querySelector('#modal-cancel');
-    if (submit) submit.textContent = 'Buy me a coffee';
+    if (submit) submit.textContent = 'Explore Good Burrow';
     if (cancel) cancel.textContent = 'Maybe later';
   };
 
@@ -129,7 +129,7 @@
         </div>
         <div class="zt-billing-banner__actions">
           <button type="button" class="zt-banner-cta" id="mailpaw-about">How it works</button>
-          <button type="button" class="zt-banner-link" id="mailpaw-support">Buy me a coffee</button>
+          <button type="button" class="zt-banner-link" id="mailpaw-support">Explore Good Burrow</button>
         </div>
       </div>
     `;
@@ -218,7 +218,7 @@
         MailPaw copies rich email content for clients that accept formatted paste, including Gmail and many desktop email apps. Each email client handles pasted content differently, so send yourself a test before using a template for a real message.
         <div style="margin-top:14px;">
           MailPaw is open source on <a href="${MAILPAW_REPO_URL}" target="_blank" rel="noopener" style="color:#111827; font-weight:700;">GitHub</a>.
-          <a href="${MAILPAW_SUPPORT_URL}" target="_blank" rel="noopener" style="color:#111827; font-weight:700;">Buy me a coffee</a>.
+          <a href="${MAILPAW_SUPPORT_URL}" target="_blank" rel="noopener" style="color:#111827; font-weight:700;">Explore Good Burrow</a>.
         </div>
       </div>
     `, () => true);

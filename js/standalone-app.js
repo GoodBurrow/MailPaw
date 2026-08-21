@@ -212,13 +212,20 @@
     if (typeof showModal !== 'function') return;
     showModal('MailPaw is Free', `
       <div style="color:#475569; font-size:14px; line-height:1.5;">
+        <a href="${MAILPAW_SUPPORT_URL}" target="_blank" rel="noopener" style="margin:0 0 18px; display:flex; align-items:center; justify-content:center; gap:10px; color:#242329; text-decoration:none;">
+          <span aria-hidden="true" style="width:38px; height:38px; position:relative; display:inline-block; overflow:hidden; border-radius:50% 50% 44% 44%; background:#1f493b; box-shadow:inset 0 0 0 1px rgba(255,255,255,.18);">
+            <span style="position:absolute; inset:9px 8px 0; border-radius:50% 50% 0 0; background:#f7f7f3;"></span>
+            <span style="position:absolute; left:13px; bottom:0; width:12px; height:15px; border-radius:50% 50% 0 0; background:#ad614c;"></span>
+          </span>
+          <strong style="font-size:16px;">Good Burrow</strong>
+        </a>
         This standalone version has no trial, subscription, template limit, export limit, or paid plan.
         Templates are stored locally in this browser on this computer for privacy. MailPaw does not need an account or cloud library to hold your email content.
         Download backup copies from the Actions menu so you can restore them later or move them to another browser.
         MailPaw copies rich email content for clients that accept formatted paste, including Gmail and many desktop email apps. Each email client handles pasted content differently, so send yourself a test before using a template for a real message.
         <div style="margin-top:14px;">
           MailPaw is open source on <a href="${MAILPAW_REPO_URL}" target="_blank" rel="noopener" style="color:#111827; font-weight:700;">GitHub</a>.
-          <a href="${MAILPAW_SUPPORT_URL}" target="_blank" rel="noopener" style="color:#111827; font-weight:700;">Explore Good Burrow</a>.
+          <a href="${MAILPAW_SUPPORT_URL}" target="_blank" rel="noopener" style="color:#111827; font-weight:700;">Visit goodburrow.com</a>.
         </div>
       </div>
     `, () => true);

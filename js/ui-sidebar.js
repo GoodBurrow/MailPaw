@@ -938,17 +938,15 @@ function renderUpgradeView(billing, options = {}) {
   if (typeof showModal !== 'function') return;
   const content = `
     <div style="text-align:center;">
-      <div style="width:56px; height:56px; margin:0 auto 16px; background:rgba(15, 23, 42, 0.08); border-radius:16px; display:flex; align-items:center; justify-content:center; color:#0f172a;">
-        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <rect x="4" y="11" width="16" height="9" rx="2"></rect>
-          <path d="M8 11V7a4 4 0 0 1 8 0v4"></path>
-        </svg>
-      </div>
+      <a href="${MAILPAW_SUPPORT_URL}" target="_blank" rel="noopener" style="margin:0 auto 16px; display:flex; align-items:center; justify-content:center; gap:10px; color:#242329; text-decoration:none;">
+        <span aria-hidden="true" style="width:38px; height:38px; position:relative; display:inline-block; overflow:hidden; border-radius:50% 50% 44% 44%; background:#1f493b; box-shadow:inset 0 0 0 1px rgba(255,255,255,.18);"><span style="position:absolute; inset:9px 8px 0; border-radius:50% 50% 0 0; background:#f7f7f3;"></span><span style="position:absolute; left:13px; bottom:0; width:12px; height:15px; border-radius:50% 50% 0 0; background:#ad614c;"></span></span>
+        <strong style="font-size:16px;">Good Burrow</strong>
+      </a>
       <div style="color:#475569; font-size:14px; margin-bottom:14px;">${message}</div>
       ${showPlansLink ? '<button class="zt-link-btn" id="zt-upgrade-plans">Trial details</button>' : ''}
       ${showBuyOption ? `
         <div class="zt-upgrade-actions" style="margin-top:12px;">
-          <button class="zt-btn-secondary" id="zt-upgrade-buy">Explore Good Burrow</button>
+          <button class="zt-btn-secondary" id="zt-upgrade-buy">Visit goodburrow.com</button>
         </div>
       ` : ''}
     </div>
